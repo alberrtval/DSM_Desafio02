@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="principal">#6C63FF</color>
+    <color name="principal_oscuro">#4B44CC</color>
+    <color name="accent">#FF6584</color>
+    <color name="fondo">#F5F5F5</color>
+    <color name="white">#FFFFFF</color>
+    <color name="text_principal">#212121</color>
+    <color name="text_secundario">#757575</color>
+    <color name="tarea_pendiente">#FFF3E0</color>
+    <color name="tarea_completada">#E8F5E9</color>
+    <color name="tarea_pendite_borde">#FF9800</color>
+    <color name="tarea_completada_borde">#4CAF50</color>
+    <color name="borrarr">#F44336</color>
+    <color name="editar">#2196F3</color>
+</resources>

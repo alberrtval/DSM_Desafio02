@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nombre_app">Todo App</string>
+    <string name="login">Iniciar Sesión</string>
+    <string name="registro">Registrarse</string>
+    <string name="email">Correo electrónico</string>
+    <string name="password">Contraseña</string>
+    <string name="confirmar_contra">Confirmar contraseña</string>
+    <string name="nombre_completo">Nombre completo</string>
+    <string name="sin_cuenta">¿No tienes cuenta? Regístrate</string>
+    <string name="con_cuenta">¿Ya tienes cuenta? Inicia sesión</string>
+    <string name="cerrar_sesion">Cerrar Sesión</string>
+    <string name="agregar_tarea">Agregar Tarea</string>
+    <string name="titulo_tareas">Título de la tarea</string>
+    <string name="descripcion_tareas">Descripción (opcional)</string>
+    <string name="guardar">Guardar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="sin_tareas">No tienes tareas pendientes\n¡Agrega una!</string>
+    <string name="pendiente">Pendiente</string>
+    <string name="completado">Completada</string>
+</resources>
