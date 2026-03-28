@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DSM_Desafio02">
         <activity
+            android:name=".dialog_add_task"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
             android:name=".Registro"
             android:exported="false" />
         <activity

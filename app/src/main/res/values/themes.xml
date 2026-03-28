@@ -1,9 +1,15 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.DSM_Desafio02" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
-    </style>
+    <style name="Theme.TodoFirebaseApp" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/principal</item>
+        <item name="colorPrimaryDark">@color/principal_oscuro</item>
+        <item name="colorAccent">@color/enfasis</item>
+        <item name="android:windowBackground">@color/fondo</item>
+    </style>>
 
+
+    <style name="Theme.TodoFirebaseApp.Splash" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowBackground">@color/principal</item>
+        <item name="android:statusBarColor">@color/principal_oscuro</item>
+    </style>
     <style name="Theme.DSM_Desafio02" parent="Base.Theme.DSM_Desafio02" />
 </resources>

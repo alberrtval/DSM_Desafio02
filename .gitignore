@@ -1,15 +1,54 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+# Built application files
+*.apk
+*.aab
+
+# Files for the ART/Dalvik VM
+*.dex
+
+# Java/Kotlin class files
+*.class
+
+# Generated files
+bin/
+gen/
+out/
+
+# Gradle
+.gradle/
+build/
+**/build/
+
+# Local configuration
 local.properties
+
+# Signing files
+*.jks
+*.keystore
+*.pem
+
+# Firebase / Google services
+google-services.json
+app/google-services.json
+serviceAccountKey.json
+firebase-service-account*.json
+
+# Proguard
+proguard/
+
+# Log files
+*.log
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+
+# NDK
+.externalNativeBuild/
+.cxx/
+
+# Captures
+captures/
+
+# OS generated files
+.DS_Store
+Thumbs.db

@@ -16,7 +16,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="60dp"
-            android:text="Crear cuenta"
+            android:text="¡Bienvenido!"
             android:textColor="@color/principal"
             android:textSize="32sp"
             android:textStyle="bold"
@@ -28,7 +28,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="Completa los datos para registrarte"
+            android:text="Inicia sesión para continuar"
             android:textColor="@color/text_secundario"
             android:textSize="16sp"
             app:layout_constraintStart_toStartOf="parent"
@@ -41,8 +41,8 @@
             android:layout_marginTop="40dp"
             app:cardCornerRadius="16dp"
             app:cardElevation="4dp"
-            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@id/tvSubtitle">
 
             <LinearLayout
@@ -51,30 +51,12 @@
                 android:orientation="vertical"
                 android:padding="24dp">
 
-                <!-- Nombre -->
-                <com.google.android.material.textfield.TextInputLayout
-                    android:id="@+id/tilName"
-                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:hint="Nombre completo"
-                    app:startIconDrawable="@android:drawable/ic_menu_myplaces">
-
-                    <com.google.android.material.textfield.TextInputEditText
-                        android:id="@+id/etName"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:inputType="textPersonName"
-                        android:maxLines="1" />
-                </com.google.android.material.textfield.TextInputLayout>
-
                 <!-- Email -->
                 <com.google.android.material.textfield.TextInputLayout
                     android:id="@+id/tilEmail"
                     style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp"
                     android:hint="Correo electrónico"
                     app:startIconDrawable="@android:drawable/ic_dialog_email">
 
@@ -105,43 +87,25 @@
                         android:maxLines="1" />
                 </com.google.android.material.textfield.TextInputLayout>
 
-                <!-- Confirm Password -->
-                <com.google.android.material.textfield.TextInputLayout
-                    android:id="@+id/tilConfirmPassword"
-                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp"
-                    android:hint="Confirmar contraseña"
-                    app:endIconMode="password_toggle"
-                    app:startIconDrawable="@android:drawable/ic_lock_idle_lock">
-
-                    <com.google.android.material.textfield.TextInputEditText
-                        android:id="@+id/etConfirmPassword"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:inputType="textPassword"
-                        android:maxLines="1" />
-                </com.google.android.material.textfield.TextInputLayout>
-
-                <!-- Botón Registro -->
+                <!-- Botón Login -->
                 <com.google.android.material.button.MaterialButton
-                    android:id="@+id/btnRegister"
+                    android:id="@+id/btnLogin"
                     android:layout_width="match_parent"
                     android:layout_height="56dp"
                     android:layout_marginTop="24dp"
-                    android:text="Crear cuenta"
+                    android:text="Iniciar Sesión"
                     android:textSize="16sp"
                     app:backgroundTint="@color/principal"
                     app:cornerRadius="12dp" />
 
+                <!-- Link a Registro -->
                 <TextView
-                    android:id="@+id/tvGoToLogin"
+                    android:id="@+id/tvGoToRegister"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_marginTop="16dp"
-                    android:text="¿Ya tienes cuenta? Inicia sesión"
+                    android:text="¿No tienes cuenta? Regístrate"
                     android:textColor="@color/principal"
                     android:textSize="14sp" />
 
@@ -153,10 +117,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:visibility="gone"
-            android:layout_marginTop="16dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/cardForm" />
+            app:layout_constraintTop_toBottomOf="@id/cardForm"
+            android:layout_marginTop="16dp"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
