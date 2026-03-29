@@ -6,9 +6,9 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/todoapp"
         android:label="@string/nombre_app"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/todoapp_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TodoFirebaseApp"
         tools:targetApi="31">
